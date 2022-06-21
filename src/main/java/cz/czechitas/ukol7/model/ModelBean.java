@@ -38,11 +38,11 @@ public class ModelBean implements ObservableBean {
 
     @Override
     public void addPropertyChangeListener(PropertyChangeListener listener) {
-
+        pcs.addPropertyChangeListener(listener);
     }
 
     @Override
     public void removePropertyChangeListener(PropertyChangeListener listener) {
-
+        pcs.removePropertyChangeListener(listener);
     }
 }
